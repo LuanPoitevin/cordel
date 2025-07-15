@@ -1,0 +1,125 @@
+@charset "UTF-8"
+
+@font-face {
+    font-family: 'GoldenHillsDEMO' ;
+    src: url(fontes/GoldenHillsDEMO.ttf);
+}
+
+@font-face {
+    font-family: 'BillionDreams';
+    src: url(fontes/BillionDreams_PERSONAL.ttf);
+}
+
+@font-face {
+    font-family: 'Great' ;
+    src: url(fontes/GreatVibes-Regular.ttf);
+}
+
+{}
+
+*{
+        margin: 0px; 
+        padding: 0px;
+    }
+
+body{
+    min-height: 100vh;
+    background-color: rgb(167, 164, 164);
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'BillionDreams';
+}
+
+header h1{
+    font-size: 50px;
+}
+
+header > p{    
+    font-size: 30px; 
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+} 
+
+header a:hover {
+    text-decoration: underline;
+    color: rgba(116, 114, 114, 0.863);
+
+}
+
+section{ padding: 15px;
+font-family: 'Great';
+font-size: x-large;
+font-weight: bold;
+text-shadow: 1px 1px 1px 1px black;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+section.normal {
+    background-color:  rgb(167, 164, 164);
+    color: black;
+    padding-left: 25px ;
+    
+}
+
+section.imagem {
+    background-color: white;
+    color: rgb(255, 255, 255);
+    padding: auto;
+    background-size: cover;
+    background-attachment: fixed;
+   }
+
+section.imagem > p {
+    padding: auto;
+    background-color: rgba(0, 0, 0, 0.644);
+    color: rgb(255, 255, 255);
+    width: 220px;
+    border-radius: 8px;
+    padding: 15px;
+    padding-left: 10px;
+    display: inline-block;
+}
+
+section#img001 {
+    padding: auto;
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+}
+
+section#img002 {
+   padding: auto;
+   background-image: url(imagens/background002.jpg);
+   background-position: right center;
+}
+
+footer{
+    background-color:  rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    font-family: 'BillionDreams';
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+} 
+
+footer a:hover {
+    text-decoration: underline;
+    color: rgba(116, 114, 114, 0.863);
+
+}
+
+
+
+
